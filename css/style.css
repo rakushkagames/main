@@ -1,16 +1,36 @@
+@media screen and (min-width:769px) {
+  .header {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .game {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .google-badge {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
 .header {
-  display: block;
-  margin: 0 auto;
-}
-
+    display: block;
+    margin: 0 auto;
+    max-width: 769px;
+  }
 .game {
-  display: block;
-  margin: 0 auto;
-}
-
+    display: block;
+    margin-left: 45%;
+  }
 .google-badge {
-  display: block;
-  max-width: 200px;
-  max-height: 200px;
-  margin: 0 auto;
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 70%;
+  }
 }
